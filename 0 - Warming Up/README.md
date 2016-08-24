@@ -1,6 +1,7 @@
 # 0 - Warming Up
 
 **Hint**:
+![calc](http://www.pythonchallenge.com/pc/def/calc.jpg)
 
 **Solution**:
 
