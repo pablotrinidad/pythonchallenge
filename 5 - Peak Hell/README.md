@@ -44,7 +44,7 @@ we're always going to have **95** as the final result.
 So yeah we have a matrix, and the way to fill it up is multiplying the first element of each 
 tuple (which is a character) by the second one (which is a number). And guess what, it says **channel**.
 
-![Channel!](https://github.com/pablotrinidad/pythonchallenge/blob/master/5%20-%Peak%20Hell/solution.png)
+![Channel!](https://github.com/pablotrinidad/pythonchallenge/blob/master/5%20-%20Peak%20Hell/solution.png?raw=true)
 
 We can go:
 
