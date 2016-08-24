@@ -48,7 +48,7 @@ tuple (which is a character) by the second one (which is a number). And guess wh
 
 We can go:
 
-**From**: [http://www.pythonchallenge.com/pc/def/**peak**.php](http://www.pythonchallenge.com/pc/def/peak.php)
+**From**: [http://www.pythonchallenge.com/pc/def/**peak**.html](http://www.pythonchallenge.com/pc/def/peak.html)
 
 **To**: [http://www.pythonchallenge.com/pc/def/**channel**.html](http://www.pythonchallenge.com/pc/def/channel.html)
 
