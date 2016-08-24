@@ -46,7 +46,7 @@ tuple (which is a character) by the second one (which is a number). And guess wh
 
 ![Channel!](https://github.com/pablotrinidad/pythonchallenge/blob/master/5%20-%Peak%20Hell/solution.png)
 
-We can go 
+We can go:
 
 **From**: [http://www.pythonchallenge.com/pc/def/**peak**.php](http://www.pythonchallenge.com/pc/def/peak.php)
 
