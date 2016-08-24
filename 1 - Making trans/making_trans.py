@@ -1,8 +1,9 @@
 # Base URL.
 base_url = 'http://www.pythonchallenge.com/pc/def/{solution}.html'
 
-# Based on the problem image.
-solution = 2 ** 38
+# Shift cipher applied with 2 as key
+hint = 'map'
+solution = ''.join(chr(ord(x) + 2) for x in list(hint))
 
 next_url = base_url.format(solution=solution)
 print (next_url)
