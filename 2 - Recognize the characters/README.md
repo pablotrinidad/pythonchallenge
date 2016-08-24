@@ -1,4 +1,4 @@
-# 0 - Recognizing the characters
+# 1 - Recognizing the characters
 
 **Hint**:
 
