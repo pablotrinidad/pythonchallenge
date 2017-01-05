@@ -1,3 +1,5 @@
+"""Bodyguards."""
+
 # Base URL.
 base_url = 'http://www.pythonchallenge.com/pc/def/{solution}.html'
 
@@ -9,19 +11,19 @@ solution = ''
 
 for i in range(len(text)):
     if (
-        # Check the 4th man ah the left is lower.
+        # Check for the 4th letter to the left to be lower case.
         text[i-4: i-3].islower() and
 
-        # Check the 3 left side bodyguards are upper.
+        # Check for the 3 letters on it's left side to be upper case.
         text[i-3: i].isupper() and
 
-        # Check the VIP's lower.
+        # Check the current letter is lower case.
         text[i].islower() and
 
-        # Check the 3 right side bodyguards are upper.
+        # Check for the 3 letters on it's right side to be upper case.
         text[i+1: i+4].isupper() and
 
-        # Check the 4th man at the right is lower.
+        # Check for the 4th letter to the right to be lower case.
         text[i+4: i+5].islower()):
 
         solution += text[i]

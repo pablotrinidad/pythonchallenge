@@ -1,3 +1,5 @@
+"""Recognize the characters."""
+
 # Base URL.
 base_url = 'http://www.pythonchallenge.com/pc/def/{solution}.html'
 

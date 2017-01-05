@@ -2,32 +2,36 @@
 
 **Hint**:
 
-Ok, this is a fucking tricky one... First, the web page tell us to *PRONOUNCE IT* (and believe me, this is the key).
+Ok, this is a tricky one...
 
-In the other hand the source code have a comment with the text:
+The web page's hint is telling us to *PRONOUNCE IT*, and while the whole
+key remains in this simple instruction, we still need to write down some code.
 
-```<!-- peak hell sounds familiar ? -->``
+By looking at the source code, we will see the following comment:
 
-Also, the source code contains an invalid HTML tag (`<peakhell />`) calling for a source 
+```<!-- peak hell sounds familiar ? -->```
+
+As well as an invalid HTML tag (`<peakhell />`) referencing a source 
 named [`banner.p`](http://www.pythonchallenge.com/pc/def/banner.p).
 
 **Solution**:
 
-First things first: if we keep pronouncing _"Peak hell"_ we'll notice that it sound like _"Pickle"_ 
-(I know, that thing swimming on vinegar)
+If we keep pronouncing _"Peak hell"_ we'll notice that it sound like _"Pickle"_ 
+(Yes, that thing swimming on vinegar)
 
 ![Fucking pickles!](https://img.buzzfeed.com/buzzfeed-static/static/2015-03/31/1/enhanced/webdr02/enhanced-7879-1427781273-1.jpg)
 
-But if we search on Google _"pickle python"_ we'll find out that it's actually [a method
+When we search for _"pickle python"_ in Google's search engine we'll find out that it's actually [a method
 for serializing](https://docs.python.org/3/library/pickle.html) python objects to byte
- streams and "_pickled_" objects can be also _"unpickled"_ so we can obtain the original object.
+ streams called "_pickle_".
 
+"_Pickled_" objects can be also _"unpickled"_ so we are able to obtain the original object.
 In order to _"unpickle"_ something we can use the pre-loaded library `pickle` and do something like this:
 
 ```
 import pickle
 
-message = b"FREACKING RANDOM CHARACTERS (BYTES STREAM)"
+message = b"SOME WEIRD RANDOM CHARACTERS (BYTES STREAM)"
 data = pickle.loads(message)
 ```
 

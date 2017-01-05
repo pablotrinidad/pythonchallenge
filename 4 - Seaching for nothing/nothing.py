@@ -1,3 +1,5 @@
+"""Searching for nothing."""
+
 import requests
 
 # Base URL.

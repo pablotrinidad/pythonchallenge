@@ -1,3 +1,5 @@
+"""Peak hell."""
+
 import pickle
 import requests
 
