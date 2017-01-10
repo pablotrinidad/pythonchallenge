@@ -1,4 +1,4 @@
-# 5 - Zip files
+# 6 - Zip files
 
 **Hint**:
 
