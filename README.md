@@ -4,7 +4,7 @@ This repo contain my solutions to the challenges at [www.pythonchallenge.com](ht
 
 ### Problems solved
 
-0. [x] warming up
-1. [x] What about making trans?
-2. [x] ocr
-3. [ ] re
+[x] 0. warming up
+[x] 1. What about making trans?
+[x] 2. ocr
+[ ] 3. re
