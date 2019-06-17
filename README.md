@@ -7,4 +7,5 @@ This repo contain my solutions to the challenges at [www.pythonchallenge.com](ht
 [x] 0. warming up
 [x] 1. What about making trans?
 [x] 2. ocr
-[ ] 3. re
+[x] 3. re
+[ ] 4. follow the chain
